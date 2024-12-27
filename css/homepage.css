@@ -49,83 +49,29 @@ details {
     }
 }
 
-
-.begin {
-    margin: 0;
-    padding: 10px;
-    background-color: #fff;
-}
-
-.b {
-    display: contents;
-    padding: 10px;
-    background-color: black;
-}
-
-.left {
-    padding: 5rem 4rem 5rem 4rem;
-    display: flex;
-    width: 30%;
-    background-color: black;
-    text-align: center;
-    border-radius: 10px;
-    margin: 1px 10px 10px 35.5rem;
-    animation: left 5s  ease-in-out;
-}
-
-@keyframes left {
-     10% {
-        margin: 10px 10rem 10px 10px;
-     }
-
-     25% {
-        margin: 10px 5rem 10px 10px;
-     }
-
-    30% {
-        margin: 10px 5rem 10px 10px;
-    }
-
-    50% {
-        margin: 10px 10px 10px 10rem;
-    }
-
-    80% {
-        margin: 10px 10px 10px 50rem;
-    }
-}
-
-.right {
-    display: flex;
-    padding: 5rem 4rem 5rem 4rem;
+.videos {
+    background-color: aliceblue;
     align-items: center;
-    width: 30%;
-    background-color: black;
     text-align: center;
-    margin: 0 0 0% 40%;
+}
+
+video {
+
+    padding: 10px;
+    border: 1px solid;
     border-radius: 10px;
-    animation: right 5s ease-in-out;
+    width: 50%;
 }
 
 
-@keyframes right {
-    10% {
-       margin: 10px 10px 10px 10rem;
-    }
-
-    25% {
-       margin: 10px 10px 10px 5rem;
-    }
-
-   30% {
-       margin: 10px 10px 10px 5rem;
-   }
-
-   50% {
-       margin: 10px 10rem 10px 10px;
-   }
-
-   90% {
-      margin: 0 0 60% 40%;
-   }
+.bottom {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    background: teal;
+    padding: 10rem;
 }
+
+
