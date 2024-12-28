@@ -49,18 +49,27 @@ details {
     }
 }
 
-.videos {
+.images-div {
     background-color: aliceblue;
     align-items: center;
     text-align: center;
+    padding: 20px;
 }
 
-video {
-
+img {
     padding: 10px;
-    border: 1px solid;
+    margin: 10px;
     border-radius: 10px;
-    width: 50%;
+    border: 0.5px solid rgba(0, 0, 0, 0.322);
+}
+
+img:hover {
+    padding: 20px;
+}
+
+.images {
+    padding: 10px;
+    width: 20rem;
 }
 
 
@@ -72,6 +81,19 @@ video {
     font-family: sans-serif;
     background: teal;
     padding: 10rem;
+    line-height: 2;
+    text-decoration: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(3, 3, 44);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
 }
 
 
